@@ -1,0 +1,116 @@
+/* Allgemein */
+html {
+    scroll-behavior: smooth;
+}
+.btn-primary {
+    background-color: #cb7200 !important;
+    color: white;
+    border-color: #cb7200 !important;
+}
+
+.btn-outline-primary {
+    color: #cb7200 !important;
+    border-color: #cb7200 !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    border-color: #cb7200 !important;
+    background-color: #cb7200 !important;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+.header h1,
+.header p {
+    z-index: 2;
+    color: #000000;
+}
+
+.header h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.6rem;
+}
+
+/* Event-Box */
+.events {
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.event-body h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.event-body p {
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Sprachumschalter */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.language-switcher .btn-link {
+    font-weight: 600;
+    text-decoration: none;
+    color: #484848;
+}
+
+.language-switcher .btn-link.active {
+    text-decoration: underline;
+    color: #cb7200;
+}
+
+
+@media (max-width: 768px) {
+    .d-flex.flex-row {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .img-container {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .event-body {
+        text-align: center;
+    }
+}
+
+
+
+a.router-link-active.router-link-exact-active.nav-link{
+    color:grey !important;
+}
+
+.navbar-brand{
+    color:black !important;
+    font-weight: bold;
+}
+@media (max-width: 1000px) {
+    .navbar-nav{
+        flex-direction: row !important;
+        align-items: center !important;
+        gap:20px;
+        padding-top:0.5em !important;
+    }
+}
