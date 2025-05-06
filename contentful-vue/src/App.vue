@@ -24,7 +24,6 @@ const { locale, t } = useI18n()
         </ul>
       </div>
 
-      <!-- Rechte Seite: Sprachumschalter -->
       <div class="language-switcher ms-auto d-flex align-items-center">
         <button
             class="btn btn-link"

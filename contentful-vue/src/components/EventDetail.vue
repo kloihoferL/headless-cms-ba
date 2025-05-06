@@ -31,7 +31,7 @@ const loadEvent = async () => {
 }
 
 onMounted(loadEvent)
-watch(locale, loadEvent) // 🔁 neu laden bei Sprachwechsel
+watch(locale, loadEvent)
 </script>
 
 <template>
@@ -45,7 +45,6 @@ watch(locale, loadEvent) // 🔁 neu laden bei Sprachwechsel
       </div>
     </div>
 
-    <!-- Event Image Gallery -->
     <div v-if="event.fields.eventGallery?.length" class="row">
       <div
           class="col-sm-6 col-lg-4 mb-3"
