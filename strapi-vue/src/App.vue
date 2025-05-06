@@ -8,10 +8,7 @@ const { locale, t } = useI18n()
 <template>
   <nav class="navbar navbar-expand-lg bg-light px-3">
     <div class="container-fluid">
-      <!-- Logo -->
       <RouterLink class="navbar-brand fw-bold" to="/">Events</RouterLink>
-
-      <!-- Burger-Menü Button -->
       <button
           class="navbar-toggler"
           type="button"
@@ -24,9 +21,7 @@ const { locale, t } = useI18n()
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Menü-Inhalt -->
       <div class="collapse navbar-collapse" id="mainNavbar">
-        <!-- Linke Navigation -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3 text-center">
           <li class="nav-item">
             <RouterLink class="nav-link" to="/" active-class="active" exact-active-class="active">
@@ -41,7 +36,6 @@ const { locale, t } = useI18n()
           </li>-->
         </ul>
 
-        <!-- Sprachumschalter rechts -->
         <div class="language-switcher d-flex align-items-center ms-lg-3 mt-3 mt-lg-0">
           <button
               class="btn btn-link"
