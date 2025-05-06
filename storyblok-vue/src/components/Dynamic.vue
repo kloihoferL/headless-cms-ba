@@ -80,8 +80,5 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-/* Optional: deine Masonry-Anpassung */
-.masonry-container img {
-  object-fit: cover;
-}
+
 </style>

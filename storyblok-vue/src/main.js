@@ -14,7 +14,7 @@ import Dynamic from './components/Dynamic.vue';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
-import 'bootstrap'; // WICHTIG: für das Burger-Menü (JS)
+import 'bootstrap';
 
 import i18n from './i18n.js'
 

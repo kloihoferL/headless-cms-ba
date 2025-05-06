@@ -9,7 +9,6 @@
         <p>{{ blok.shortDescription }}</p>
         <p><strong>{{ $t('date') }}</strong> {{ new Date(blok.date).toLocaleString() }}</p>
 
-        <!-- Mehr erfahren Button -->
         <router-link
             class="btn btn-primary mt-2"
             :to="`/events/${blok.eventID}`"
