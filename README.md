@@ -16,5 +16,5 @@ Dieses Repository enthält die drei praktischen Umsetzungen, die im Rahmen der B
 - Storyblok (SaaS)
 - Contentful (SaaS)
 
-## Screenshots von einem fertigen Projekt
+## Screenshot von einem fertigen Projekt
 ![Startseite Eventplattform](startseite.png)
