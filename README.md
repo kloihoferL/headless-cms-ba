@@ -17,4 +17,4 @@ Dieses Repository enthält die drei praktischen Umsetzungen, die im Rahmen der B
 - Contentful (SaaS)
 
 ## Screenshots von einem fertigen Projekt
-![Startseite Eventplattform](screenshots/startseite.png)
+![Startseite Eventplattform](startseite.png)
